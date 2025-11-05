@@ -425,7 +425,7 @@ verkko --par-run 20 128 48 -d /path/to/verkko/Vcruz_01 --local-memory 128 --loca
  --hifi /path/to/Victoria_cruziana.corrected_reads.fasta
 ```
 
-The `--par-run` option allows you to modify CPU, memory (GB), and runtime (hours) limits for specific pipeline stages. For example, `--par-run 20 128 48` allocates 27 CPUs, 464 GB RAM, and 48 hours for one of the internal pipeline steps. This is especially helpful if you encounter bottlenecks in particular stages of the assembly.
+The `--par-run` option allows you to modify CPU, memory (GB), and runtime (hours) limits for specific pipeline stages. For example, `--par-run 20 128 48` allocates 20 CPUs, 128 GB RAM, and 48 hours for one of the internal pipeline steps. This is especially helpful if you encounter bottlenecks in particular stages of the assembly.
 
 For more fine-grained control, consult the full list of Verkko parameters with `verkko --help`.
 
