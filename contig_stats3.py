@@ -1,5 +1,5 @@
 ### Boas Pucker ###
-### b.pucker@tu-bs.de ###
+### pucker@uni-bonn.de ###
 
 ## based on script contig_stats.py Pucker et al., 2016. doi:10.1371/journal.pone.0164321
 
@@ -8,9 +8,9 @@ from operator import itemgetter
 
 # --- end of imports --- #
 
-__version__ = "v3.0"
+__version__ = "v3.1"
 
-__citation__ = "Oliveira et al. (2025)"	#update
+__citation__ = "de Oliveira, J. A. V. S.; Choudhary, N.; Meckoni, S. N.; Nowak, M. S.; Hagedorn, M.; Pucker, B. (2025). Cookbook for Plant Genome Sequences. doi: 10.20944/preprints202508.1176.v2"
 
 __usage__ = """ 
 				Calculation of assembly statistics (""" + __version__ + """):
@@ -22,8 +22,8 @@ __usage__ = """
 				--out <FULL_PATH_TO_OUTPUT_DIRECTORY>
 				--exp <EXPRESSION_FILE(normalized)>
 				
-				bug reports and feature requests: b.pucker@tu-bs.de
-				Please cite: """ + __citation__ + """
+				bug reports and feature requests: pucker@uni-bonn.de
+				Please cite: \n""" + __citation__ + """
 			"""
 
 def calculate_formal_contig_stats_expX( filename, expX ):
