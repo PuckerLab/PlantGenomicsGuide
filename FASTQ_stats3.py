@@ -1,7 +1,7 @@
 ### Boas Pucker ###
-### b.pucker@tu-bs.de ###
+### pucker@uni-bonn.de ###
 
-__version__ = "v0.41"
+__version__ = "v0.42"
 
 
 __usage__ = """
@@ -18,7 +18,7 @@ __usage__ = """
 		--qualcut <UPPER_QUAL_CUTOFF_FOR_PLOT>[40]
 		--quality <ACTIVATES_QUALITY_ANALYSIS>
 		
-		bug reports and feature requests: b.pucker@tu-bs.de
+		bug reports and feature requests: pucker@uni-bonn.de
 		"""
 
 import sys, gzip, glob
@@ -265,3 +265,4 @@ if '--in_file' in sys.argv or '--in_dir' in sys.argv or '--in' in sys.argv:
 	main( sys.argv )
 else:
 	sys.exit( __usage__ )
+
