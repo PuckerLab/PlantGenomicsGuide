@@ -3,6 +3,10 @@
 ##### Command-Line Protocols for Plant Genome Sequencing Analysis Using Oxford Nanopore Technologies (ONT) data
 ---
 
+## Corresponding review article
+
+de Oliveira, J.A.V.S., Choudhary, N., Meckoni, S.N., Nowak M. S., Hagedorn M., Pucker B. (2026). Cookbook for plant genome sequences. BMC Genomics. [10.1186/s12864-026-12623-z](https://doi.org/10.1186/s12864-026-12623-z).
+
 ## Overview
 This document provides exemplary step-by-step commands for ONT long-read sequencing analysis in plants, including basecalling, genome assembly, gene annotation, and final data submission. This hands-on protocol covers the entire process, from raw data acquisition to final genome assembly, making it accessible even to beginners. Brief explanations accompany each step to ensure that readers cannot only follow the protocol but also understand the methodology and can adapt it to their own research. 
 
