@@ -444,7 +444,15 @@ Key paramenters are `-t` for defining the number of CPU threads to use, `--ont` 
 hifiasm -t 64 --ont -o ONT.asm /path/to/Victoria_cruziana.corrected_reads.fastq.gz
 ```
 
-Hifiasm automatically outputs primary and alternative assemblies as GFA files, which can be converted to FASTA using tools such as `awk` or `gfatools`. For `gfatools`, only the `.gfa` file is required: 
+Hifiasm automatically outputs primary and alternative assemblies as GFA files, which can be converted to FASTA using tools such as `awk` or `gfatools`.
+
+For `awk`, the following command can be used:
+
+```bash
+awk '/^S/{print ">"$2;print $3}' /path/to/ONT.asm.bp.p_ctg.gfa > Victoria_cruziana.genome.fa
+```
+
+For `gfatools`, the following command can be used: 
 
 ```bash
 gfatools gfa2fa /path/to/ONT.asm*.gfa > /path/to/Victoria_cruziana.genome.fa
