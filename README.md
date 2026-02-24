@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1083785713.svg)](https://doi.org/10.5281/zenodo.18762022)
+
 ---
 # Cookbook for Plant Genome Sequences
 ##### Command-Line Protocols for Plant Genome Sequencing Analysis Using Oxford Nanopore Technologies (ONT) data
